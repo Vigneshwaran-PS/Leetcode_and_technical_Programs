@@ -4,8 +4,11 @@ public class List_of_ArmstrongNumber {
     public static void main(String[] args) {
         int arr[] = {1,790,370,9,154,89,153,371,153,45,6,23,67,463};
         for(int num : arr){
+            if(num==1 || num==2 || num==3 || num==4 || num==5 || num==6 || num==7 || num==8 || num==9){
+                System.out.print(num+ "  ");
+            }
             if (armstrong(num)) {
-                System.out.println(num);
+                System.out.print(num+ "  ");
             }
         }
     }
