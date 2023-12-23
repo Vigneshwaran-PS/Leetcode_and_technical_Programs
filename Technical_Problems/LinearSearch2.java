@@ -1,10 +1,12 @@
 package Leetcode_and_technical_Programs.Technical_Problems;
 
-import com.sun.security.jgss.GSSUtil;
+
+/* return true if the elemet exists
+   otherwise returns false */
 
 public class LinearSearch2 {
     public static void main(String[] args) {
-        int arr[] = {23,45,57,3,435,21,345,8,23,12};
+        int[] arr = {23,45,57,3,435,21,345,8,23,12};
         System.out.println(linearSearch(arr,2));
         System.out.println(linearSearch(arr,23));
         System.out.println(linearSearch(arr,52));
