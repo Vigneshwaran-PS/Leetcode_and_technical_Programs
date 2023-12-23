@@ -21,7 +21,6 @@ public class List_of_ArmstrongNumber_with_Arraylist {
     }
 
     public static boolean checkArmstrong(int num){
-
         int temp = num;
         int cubeSum = 0;
         while(num > 0){
@@ -30,5 +29,6 @@ public class List_of_ArmstrongNumber_with_Arraylist {
             num/=10;
         }
         return temp==cubeSum;
+
     }
 }
