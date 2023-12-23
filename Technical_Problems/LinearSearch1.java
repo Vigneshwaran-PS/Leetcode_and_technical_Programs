@@ -2,7 +2,7 @@ package Leetcode_and_technical_Programs.Technical_Problems;
 
 
 public class LinearSearch1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {     // Return index of the element if exists otherwise it returns -1
         int arr[] = {23,5,7,3,7,453,67,3,56};
         System.out.println(linearSearch(arr,3));
         System.out.println(linearSearch(arr,45));
