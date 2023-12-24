@@ -27,10 +27,8 @@ public class Find_First_and_Last_Position_of_Element_in_Sorted_Array_34 {
     }
 
     public static int[] searchRange(int[] arr , int target){
-        int ans[] = {-1,-1};
         int start = search(arr , target , true);
         int end = search(arr , target , false);
-
         return new int[]{start,end};
     }
 
