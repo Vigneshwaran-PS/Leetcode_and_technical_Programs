@@ -25,7 +25,7 @@ public class Search_in_Rotated_Array_with_duplicates_81 {
             return true;
         }
         if(target >= arr[0]){
-            binarySearch(arr,target,0,pivot-1);
+            return binarySearch(arr,target,0,pivot-1);
         }
         return binarySearch(arr,target,pivot+1,arr.length-1);
     }
