@@ -1,5 +1,12 @@
 package Leetcode_and_technical_Programs.Softsquare_Interview_Questions;
 
+
+
+// Given a positive integer number , take each two integer from given number and divided by 2 ,
+// if that number is divisible by 2 then change the second number as 1
+// Eg : 1234563
+// First take 12 and divided by 2 , which is 0 , so the second number "2" is changed into 1
+// then take 34 and so on.
 public class Int_to_String {
     public static void main(String[] args) {
         int num = 1234563;
