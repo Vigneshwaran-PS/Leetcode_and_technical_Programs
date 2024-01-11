@@ -13,6 +13,7 @@ public class Search_in_Rotated_Array_with_duplicates_81 {
     public static void main(String[] args) {
         System.out.println(search(new int[]{2,5,6,0,0,1,2} , 0));
         System.out.println(search(new int[]{2,5,6,0,0,1,2} , 3));
+        System.out.println(search(new int[]{2,5,6,0,0,1,2} , 1));
     }
 
     public static boolean search(int[] arr , int target){
@@ -43,7 +44,7 @@ public class Search_in_Rotated_Array_with_duplicates_81 {
                return mid - 1;
             }
 
-            if(arr[mid] == start && arr[mid] == arr[end]){
+            if(arr[mid] == arr[start] && arr[mid] == arr[end]){
                 if(start < end && arr[start] > arr[start+1]) {
                     return start;
                 }
