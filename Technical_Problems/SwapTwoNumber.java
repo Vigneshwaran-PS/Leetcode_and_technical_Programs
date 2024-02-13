@@ -10,6 +10,7 @@ public class SwapTwoNumber {
         int b = s.nextInt();
         function(a,b);
     }
+
     public static void function(int a , int b){
         a = a + b;
         b = a - b;
